@@ -61,3 +61,10 @@ while (pontosUs < 2 && pontosCPu < 2) { // operadores relacionais poderiam ser !
     }
 console.log("pontos do usuário",pontosUs,"pontos do CPU", pontosCPu)// console logue dentro do while para acompanhar o placar
 }
+
+if (pontosUs > pontosCPu) {
+    alert("vitoria do usuário\n"+'pontos usuario: '+pontosUs+'\n'+'pontos do cpu: '+pontosCPu)
+    
+}else{
+    alert("vitoria do cpu\n"+'pontos usuario: '+pontosUs+'\n'+'pontos do cpu: '+pontosCPu)
+}
